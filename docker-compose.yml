@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  https:
+    build:
+      context: .
+    volumes:
+      - ./config:/config
+    ports:
+      - "3000:3000"
