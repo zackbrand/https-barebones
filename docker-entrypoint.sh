@@ -7,7 +7,7 @@ set -e
 
 #If script invoked with specific arguments
 if [ "$1" = 'https' ]; then
-  node ./app.mjs
+  exec node ./app.mjs
 fi
 
 # Replace the parent process, rather than have two processes running.
