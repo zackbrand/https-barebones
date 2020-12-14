@@ -1,5 +1,5 @@
 //==============================================================================
-import config from './config/config.mjs';
+import config from './config.mjs';
 import https from 'https';
 import fs from 'fs';
 //==============================================================================
