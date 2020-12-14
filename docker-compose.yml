@@ -4,6 +4,6 @@ services:
     build:
       context: .
     volumes:
-      - ./config/key:/config/key
+      - ./keys:/keys
     ports:
       - "3000:3000"
