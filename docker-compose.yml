@@ -1,6 +1,8 @@
 version: "3.9"
 services:
   https:
+    container_name: "server"
+    image: "zackbrand/https:latest"
     build:
       context: .
     volumes:
