@@ -1,8 +1,7 @@
 version: "3.9"
 services:
   https:
-    container_name: "server"
-    image: "zackbrand/https:latest"
+    image: "zackbrand/https-barebones:latest"
     build:
       context: .
     volumes:
